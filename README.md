@@ -1,40 +1,33 @@
-# Welcome to Remix!
+# MacOS Time Tracker
 
-- 📖 [Remix docs](https://remix.run/docs)
+https://github.com/user-attachments/assets/bdfce948-10d4-493c-89e0-95bd39b506ec
 
-## Development
 
-Run the dev server:
+## Hedef
 
-```shellscript
-npm run dev
-```
+Bu projeyi, task sürelerinin takibini yaparken zorlandığım için bir ihtiyaç olarak geliştirdim. Siz de böyle bir durumdan muzdaripseniz gönül rahatlığıyla kullanabilirsiniz.
 
-## Deployment
+## Özellikler
 
-First, build your app for production:
+- Görev sürelerinin takibi
+- Görev başlatma, durdurma ve sıfırlama
+- Geçmiş görev verilerinin görüntülenmesi
 
-```sh
-npm run build
-```
+## Kurulum
 
-Then run the app in production mode:
+### Gereksinimler
 
-```sh
-npm start
-```
+- [Rust](https://www.rust-lang.org/tools/install) ve [Tauri](https://tauri.app/) kurulu olmalıdır.
 
-Now you'll need to pick a host to deploy it to.
 
-### DIY
+### Adım 1: Projeyi Klonlayın
+### Adım 2: Bağımlılıkları Yükleyin (pnpm install veya npm install)
+### Adım 3: Geliştirme Sunucusunu Başlatın (pnpm run dev veya npm run dev)
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+### Eğer dmg file halinde kullanmak istiyorsanız build işlemi yaptıktan sonra Uygulamalarım kısmından kullanabilirsiniz.
 
-Make sure to deploy the output of `npm run build`
+## Katkıda bulunmak için;
+- Projeyi forklayıp istediğiniz featureları ekleyip veya gördüğünüz bugları düzeltebilirsiniz.
 
-- `build/server`
-- `build/client`
 
-## Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
